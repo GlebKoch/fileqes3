@@ -8,6 +8,6 @@ if line_count1 > line_count2:
         print(file1.read())
 else:
     with open('list1.txt', 'rt', encoding='utf-8') as file1:
-        print(file1.read)
+        print(file1.read())
     with open('list2.txt', 'rt', encoding='utf-8') as file2:
         print(file2.read())
